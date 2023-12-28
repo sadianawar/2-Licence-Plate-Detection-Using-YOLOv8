@@ -1,0 +1,19 @@
+path: G:\Car Number Plate Detection\V2__Licence Plate Detection with YOLOv8\License Plate Recognition.v4-resized640_aug3x-accurate.yolov8
+# dataset root dir
+train: train\images #train images (relative to 'path')
+val: valid\images
+test: test\images
+
+names:
+  0: License_Plate
+
+
+#nc: 1
+#names: ['License_Plate']
+
+#roboflow:
+#  workspace: roboflow-universe-projects
+#  project: license-plate-recognition-rxg4e
+#  version: 4
+#  license: CC BY 4.0
+#  url: https://universe.roboflow.com/roboflow-universe-projects/license-plate-recognition-rxg4e/dataset/4
